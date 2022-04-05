@@ -6,21 +6,15 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import kotlinx.android.parcel.Parcelize
 
-// yang kdua membuat dataclass Student
-
-//Menandai bahwa class ini adalah sebuah Entity yang akan diproses menjadi sebuah Table
 @Entity
-//Object class agar bisa mengirim melalui intent
 @Parcelize
-data class Student (
-    //Menandai atribut ini sebagai Primary Key pada Table.
+data class Student(
     @PrimaryKey(autoGenerate = true)
     var id : Int?,
 
-    //Colum Info yaitu Menamaan Kolom pada table
-    @ColumnInfo (name = "nama")
+    @ColumnInfo(name = "nama")
     var nama : String,
 
-    @ColumnInfo (name = "email")
+    @ColumnInfo(name = "email")
     var email : String
 ) : Parcelable
