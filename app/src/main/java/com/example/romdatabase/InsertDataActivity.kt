@@ -1,5 +1,6 @@
 package com.example.romdatabase
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -24,6 +25,7 @@ class InsertDataActivity : AppCompatActivity() {
 
                 runOnUiThread {
                     if (hasil != 0.toLong()){
+                        startActivity(Intent(this@InsertDataActivity, MainActivity::class.java))
                         Toast.makeText(this@InsertDataActivity, "SUCCESS", Toast.LENGTH_LONG).show()
                     } else{
                         Toast.makeText(this@InsertDataActivity, "GAGAL", Toast.LENGTH_LONG).show()

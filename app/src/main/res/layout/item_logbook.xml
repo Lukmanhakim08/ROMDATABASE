@@ -37,7 +37,7 @@
 
                 <TextView
                     android:layout_marginLeft="10dp"
-                    android:id="@+id/text_namat"
+                    android:id="@+id/text_nama"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nama"
