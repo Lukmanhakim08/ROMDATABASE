@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ROMDATABASE">
         <activity
+            android:name=".EditActivity"
+            android:exported="false" />
+        <activity
             android:name=".InsertDataActivity"
             android:exported="false" />
         <activity

@@ -26,8 +26,7 @@
         android:padding="10dp"
         android:hint="Masukkan Nama"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:background="@drawable/custom"/>
+        android:textSize="20dp"/>
 
 
     <EditText
@@ -41,8 +40,7 @@
         android:padding="10dp"
         android:hint="Masukkan Alamat"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:background="@drawable/custom" />
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/edt_inputumur"
@@ -55,8 +53,7 @@
         android:padding="10dp"
         android:hint="Masukkan Umur"
         android:textColor="@color/black"
-        android:textSize="20dp"
-        android:background="@drawable/custom" />
+        android:textSize="20dp"/>
 
 
     <Button

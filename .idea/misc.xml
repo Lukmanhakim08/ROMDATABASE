@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/drawable-v24/ic_add.xml" value="0.1" />
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/drawable/ic_delete.xml" value="0.1" />
+        <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/activity_edit.xml" value="0.20416666666666666" />
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/activity_insert_data.xml" value="0.12047101449275362" />
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/alert_hapus.xml" value="0.12001811594202899" />
+        <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/alert_input.xml" value="0.20416666666666666" />
+        <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/alert_update.xml" value="0.14356884057971014" />
         <entry key="..\:/Binar/Materi/Chapter 4/ROMDATABASE/app/src/main/res/layout/item_logbook.xml" value="0.18" />
       </map>
     </option>
